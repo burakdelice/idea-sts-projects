@@ -58,7 +58,7 @@ public class Calisan {
 
     @Override
     public String toString() {
-        return "Calisan{" +
+        return "Calisan Burak {" +
                 "kimlikNo=" + kimlikNo +
                 ", adi='" + adi + '\'' +
                 ", soyadi='" + soyadi + '\'' +
