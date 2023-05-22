@@ -21,7 +21,6 @@
         <artifactId>lombok-maven-plugin</artifactId>
         <version>1.18.20.0</version>
         <scope>provided</scope>
-    </dependency>
+        </dependency>
     </dependencies>
-
 </project>
