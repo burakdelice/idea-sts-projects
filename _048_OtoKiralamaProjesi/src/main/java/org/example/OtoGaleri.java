@@ -66,16 +66,24 @@ public class OtoGaleri implements IOtoGaleri {
     public void kiralamaOlustur() {
         Kiralama kiralama1 = new Kiralama(1, kasiyerler.get(0), musteriler.get(0), arabalar.get(0));
         arabalar.get(0).setDurum(EDurum.KIRADA);
+
         Kiralama kiralama2 = new Kiralama(2, kasiyerler.get(1), musteriler.get(1), arabalar.get(1));
         arabalar.get(1).setDurum(EDurum.KIRADA);
+
         Kiralama kiralama3 = new Kiralama(3, kasiyerler.get(2), musteriler.get(2), arabalar.get(2));
         arabalar.get(2).setDurum(EDurum.KIRADA);
+
         Kiralama kiralama4 = new Kiralama(4, kasiyerler.get(0), musteriler.get(3), arabalar.get(3));
         arabalar.get(3).setDurum(EDurum.KIRADA);
+
         Kiralama kiralama5 = new Kiralama(5, kasiyerler.get(3), musteriler.get(4), arabalar.get(7));
         arabalar.get(7).setDurum(EDurum.KIRADA);
-        Kiralama kiralama6 = new Kiralama(6, kasiyerler.get(0), musteriler.get(0), arabalar.get(10));
+
+        Kiralama kiralama6 = new Kiralama(7, kasiyerler.get(0), musteriler.get(0), arabalar.get(10));
         arabalar.get(10).setDurum(EDurum.KIRADA);
+
+        Kiralama kiralama7 = new Kiralama(8, kasiyerler.get(1), musteriler.get(2), arabalar.get(4));
+        arabalar.get(4).setDurum(EDurum.KIRADA);
 
         listeyeEkle(kiralamalar, kiralama1);
         listeyeEkle(kiralamalar, kiralama2);
@@ -83,6 +91,7 @@ public class OtoGaleri implements IOtoGaleri {
         listeyeEkle(kiralamalar, kiralama4);
         listeyeEkle(kiralamalar, kiralama5);
         listeyeEkle(kiralamalar, kiralama6);
+        listeyeEkle(kiralamalar, kiralama7);
 
     }
 
