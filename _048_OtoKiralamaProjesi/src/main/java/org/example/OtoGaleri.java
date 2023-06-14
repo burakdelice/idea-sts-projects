@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
@@ -174,7 +175,6 @@ public class OtoGaleri implements IOtoGaleri {
 
     public static void main(String[] args) {
         System.out.println("Oto Galeri");
-
 
         OtoGaleri otoGaleri = new OtoGaleri();
 
